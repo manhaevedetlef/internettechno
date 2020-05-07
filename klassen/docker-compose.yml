@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  klas-service:
+    build: ./klas
+    volumes:
+     - ./klas:/usr/src/app
+    ports:
+     - 5000:80
+
