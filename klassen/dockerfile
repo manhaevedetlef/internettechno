@@ -1,0 +1,5 @@
+from python:3-onbuild
+copy . /usr/src/app
+CMD ["python","api.py"]
+EXPOSE 80
+
